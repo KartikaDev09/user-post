@@ -2,6 +2,7 @@
 // API 2: "https://jsonplaceholder.typicode.com/posts?userId=:id"
  const userListElem = document.querySelector('.user-list');
 
+ 
 async function main() { 
 
   const usersX = await fetch("https://jsonplaceholder.typicode.com/users");
